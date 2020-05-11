@@ -65,6 +65,16 @@ To https://github.com/Shohan494/git-test-repo.git
     - let's create a new branch - git branch develop, this will only create a new one based on the current branch we are using
     - check by doing - git branch, the star will point your current branch and will also show you the new branch you have just created
     - delete this branch - git branch -d develop
+    - recreate branch and directly move onto the new branch by - git checkout -b develop, you will see:
+
+```
+Switched to a new branch 'develop'
+```
+    - just know that, we have created new branch, and basically it is the clone of local master branch
+    - the changes we will do now will only be changed for this 'develop' branch, not in master, that will remain the same
+    - for this line we are writing, we will check the changes, and will push this 'develop' branch to remote also
+    - by using - git push -u origin develop
+
 
 * main source will be sent/uploaded/synced with github finally
 
