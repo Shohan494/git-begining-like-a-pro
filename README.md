@@ -83,6 +83,12 @@ Switched to a new branch 'develop'
     - for syncing remote master and local master, we have to - git checkout master - git pull origin master
     - so local master got synced again with origin master, all seems fine
 
+6. Release, tag and versioning is really much more fun
+    - for example this line is MASTER BRANCH
+    - for example this line is DEVELOP BRANCH
+    - for example this line is NEW-FEATURE BRANCH
+    - for example this is our current RELEASE BRANCH - 1.0.0
+
 
 * main source will be sent/uploaded/synced with github finally
 
