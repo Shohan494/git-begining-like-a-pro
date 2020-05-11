@@ -37,6 +37,12 @@ git push -u origin master
     - okay, so they are offering 3 things, we don't like to upload and sit back, and we already done some stuffs locally
     - so the last option is we are interested about now
     - we will - git remote add origin https://github.com/Shohan494/git-test-repo.git
+    - just done the changes added and commited, because we will try to track small changes which is the best way to use git
+    - okay, we kind of added some remote stuffs in the last command. we have to know about what actually happened
+    - again let's - git remote, we will see something called origin
+    - we can try again - git branch, we will see the same situation
+
+3. 
 
 * main source will be sent/uploaded/synced with github finally
 
