@@ -76,6 +76,13 @@ Switched to a new branch 'develop'
     - by using - git push -u origin develop
     - so now we have 2 local and 2 remote branches and so far they are synced with github remote branches
 
+5. After we do the push from any other branches rather than master branch, for syncing them again from the github repository, we do pull request
+    - from github ui create pull request
+    - successfully merge the develop branch with the master branch
+    - notice that the remote origin master branch is updated, but our local master remained in the old phase when we created 'develop'
+    - for syncing remote master and local master, we have to - git checkout master - git pull origin master
+    - so local master got synced again with origin master, all seems fine
+
 
 * main source will be sent/uploaded/synced with github finally
 
