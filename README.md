@@ -45,7 +45,7 @@ git push -u origin master
 3. Okay, so far so good, we missed something from the last instructions though which was given by github repository
     - let's try - git push -u origin master
     - github repository is now having just nothing
-    - so if we try like - git push instead of git push -u origin master, we will have something like - git push --set-upstream origin master
+    - so if we try like - git push instead of - git push -u origin master, we will have something like - git push --set-upstream origin master
     - after doing so, we will see much like these:
 
 ```
@@ -53,8 +53,18 @@ To https://github.com/Shohan494/git-test-repo.git
 * [new branch]      master -> master
 ```
     - check your github.com repository, you will find your local repository has been transferred there, nicely
+    - just added the changes and - git commit -m "first time pushing from local master to origin master"
 
-4. 
+4. Time for some more fun, let's branch
+    - try - git branch -a, we will see local and origin master from remote
+    - we have some options though, but we are always trying to do something from local machine at first
+    - so master branch is the default branch for a git repository
+    - branching has many purposes and reasons, we create new branch for our own needs and for smarter project source code managing
+    - for example we need to do a lot of test, we add new features, while buiding stuffs they crashes, they give errors etc
+    - so master branch or main branch is always compared with the good state of a project that can serve it's purposes without any major issue
+    - let's create a new branch - git branch develop, this will only create a new one based on the current branch we are using
+    - check by doing - git branch, the star will point your current branch and will also show you the new branch you have just created
+    - delete this branch - git branch -d develop
 
 * main source will be sent/uploaded/synced with github finally
 
