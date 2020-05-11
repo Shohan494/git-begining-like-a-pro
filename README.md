@@ -10,7 +10,8 @@
     - want to track things by git? start by adding them, each file or all - git add .
     - what have you done, can you explain it to yourself? that's commit - git commit -m "linkin park - what I've done, I'm commiting by myself"
 
-
+2. so, so far we created git repository in our local machine, and we are working
+    - if we check we will see we are working on a branch called master
 
 * main source will be sent/uploaded/synced with github finally
 
