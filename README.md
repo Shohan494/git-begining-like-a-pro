@@ -88,6 +88,10 @@ Switched to a new branch 'develop'
     - for example this line is DEVELOP BRANCH
     - for example this line is NEW-FEATURE BRANCH
     - for example this is our current RELEASE BRANCH - 1.0.0
+    - we did - git tag 1.0.0 and then - git checkout develop and then - git merge release-1.0.0 and then git branch -d release-1.0.0
+    - then we pushed the develop to origin develp and then by the same way merged with master
+    - we also did something like - git push --tags
+    - which worked as version release
 
 
 
