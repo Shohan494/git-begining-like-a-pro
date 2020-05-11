@@ -42,7 +42,19 @@ git push -u origin master
     - again let's - git remote, we will see something called origin
     - we can try again - git branch, we will see the same situation
 
-3. 
+3. Okay, so far so good, we missed something from the last instructions though which was given by github repository
+    - let's try - git push -u origin master
+    - github repository is now having just nothing
+    - so if we try like - git push instead of git push -u origin master, we will have something like - git push --set-upstream origin master
+    - after doing so, we will see much like these:
+
+```
+To https://github.com/Shohan494/git-test-repo.git
+* [new branch]      master -> master
+```
+    - check your github.com repository, you will find your local repository has been transferred there, nicely
+
+4. 
 
 * main source will be sent/uploaded/synced with github finally
 
