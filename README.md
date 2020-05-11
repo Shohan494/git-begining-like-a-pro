@@ -74,6 +74,7 @@ Switched to a new branch 'develop'
     - the changes we will do now will only be changed for this 'develop' branch, not in master, that will remain the same
     - for this line we are writing, we will check the changes, and will push this 'develop' branch to remote also
     - by using - git push -u origin develop
+    - so now we have 2 local and 2 remote branches and so far they are synced with github remote branches
 
 
 * main source will be sent/uploaded/synced with github finally
