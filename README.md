@@ -74,6 +74,24 @@ Switched to a new branch 'develop'
     - the changes we will do now will only be changed for this 'develop' branch, not in master, that will remain the same
     - for this line we are writing, we will check the changes, and will push this 'develop' branch to remote also
     - by using - git push -u origin develop
+    - so now we have 2 local and 2 remote branches and so far they are synced with github remote branches
+
+5. After we do the push from any other branches rather than master branch, for syncing them again from the github repository, we do pull request
+    - from github ui create pull request
+    - successfully merge the develop branch with the master branch
+    - notice that the remote origin master branch is updated, but our local master remained in the old phase when we created 'develop'
+    - for syncing remote master and local master, we have to - git checkout master - git pull origin master
+    - so local master got synced again with origin master, all seems fine
+
+6. Release, tag and versioning is really much more fun
+    - for example this line is MASTER BRANCH
+    - for example this line is DEVELOP BRANCH
+    - for example this line is NEW-FEATURE BRANCH
+    - for example this is our current RELEASE BRANCH - 1.0.0
+
+
+
+
 
 
 * main source will be sent/uploaded/synced with github finally
