@@ -18,9 +18,9 @@
     - okay so, now we are bored, we must try something new, let's create a github repository in github.com and see what it says
 
 
-Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+#### Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
 
-…or create a new repository on the command line
+#### …or create a new repository on the command line
 ```
 echo "# git-test-repo" >> README.md
 git init
@@ -30,7 +30,7 @@ git remote add origin https://github.com/Shohan494/git-test-repo.git
 git push -u origin master
 ```
 
-…or push an existing repository from the command line
+#### …or push an existing repository from the command line
 
 ```
 git remote add origin https://github.com/Shohan494/git-test-repo.git
@@ -59,16 +59,16 @@ To https://github.com/Shohan494/git-test-repo.git
     - just added the changes and - `git commit -m "first time pushing from local master to origin master"`
 
 4. Time for some more fun, let's branch
-    - try - git branch -a, we will see local and origin master from remote
+    - try - `git branch -a`, we will see local and origin master from remote
     - we have some options though, but we are always trying to do something from local machine at first
     - so master branch is the default branch for a git repository
     - branching has many purposes and reasons, we create new branch for our own needs and for smarter project source code managing
     - for example we need to do a lot of test, we add new features, while buiding stuffs they crashes, they give errors etc
     - so master branch or main branch is always compared with the good state of a project that can serve it's purposes without any major issue
-    - let's create a new branch - git branch develop, this will only create a new one based on the current branch we are using
-    - check by doing - git branch, the star will point your current branch and will also show you the new branch you have just created
-    - delete this branch - git branch -d develop
-    - recreate branch and directly move onto the new branch by - git checkout -b develop, you will see:
+    - let's create a new branch - `git branch develop`, this will only create a new one based on the current branch we are using
+    - check by doing - `git branch`, the star will point your current branch and will also show you the new branch you have just created
+    - delete this branch - `git branch -d develop`
+    - recreate branch and directly move onto the new branch by - `git checkout -b develop`, you will see:
 
 ```
 Switched to a new branch 'develop'
@@ -76,14 +76,14 @@ Switched to a new branch 'develop'
     - just know that, we have created new branch, and basically it is the clone of local master branch
     - the changes we will do now will only be changed for this 'develop' branch, not in master, that will remain the same
     - for this line we are writing, we will check the changes, and will push this 'develop' branch to remote also
-    - by using - git push -u origin develop
+    - by using - `git push -u origin develop`
     - so now we have 2 local and 2 remote branches and so far they are synced with github remote branches
 
 5. After we do the push from any other branches rather than master branch, for syncing them again from the github repository, we do pull request
     - from github ui create pull request
     - successfully merge the develop branch with the master branch
     - notice that the remote origin master branch is updated, but our local master remained in the old phase when we created 'develop'
-    - for syncing remote master and local master, we have to - git checkout master - git pull origin master
+    - for syncing remote master and local master, we have to - `git checkout master` - `git pull origin master`
     - so local master got synced again with origin master, all seems fine
 
 6. Release, tag and versioning is really much more fun
@@ -91,15 +91,12 @@ Switched to a new branch 'develop'
     - for example this line is DEVELOP BRANCH
     - for example this line is NEW-FEATURE BRANCH
     - for example this is our current RELEASE BRANCH - 1.0.0
-    - we did - git tag 1.0.0 and then - git checkout develop and then - git merge release-1.0.0 and then git branch -d release-1.0.0
+    - we did - `git tag 1.0.0` and then - `git checkout develop` and then - `git merge release-1.0.0` and then `git branch -d release-1.0.0`
     - then we pushed the develop to origin develp and then by the same way merged with master
-    - we also did something like - git push --tags
+    - we also did something like - `git push --tags`
     - which worked as version release
 
-
-
-
-
+7. Awesome, we made it so far and million more miles to go :rocket:
 
 * main source will be sent/uploaded/synced with github finally
 
