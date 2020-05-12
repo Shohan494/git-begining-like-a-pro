@@ -98,6 +98,9 @@ Switched to a new branch 'develop'
 
 ### 7. Awesome, we made it so far and million more miles to go :rocket:
 
+    - in some cases, you created a new branch and felt the name was not done right
+    - relax, we can handle it by - `git branch -m <oldname> <newname>`
+
 * main source will be sent/uploaded/synced with github finally
 
 #### Next Phase - A little high level noises they will make
